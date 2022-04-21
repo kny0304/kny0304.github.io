@@ -172,7 +172,7 @@ img.img-full-width {
 	text-align: center;
 }
 .nino-hoverEffect .item {
-	background: #95e1d3;
+	background: #ffffff;
 	display: inline-block;
 }
 .nino-hoverEffect .item .overlay {
@@ -401,18 +401,18 @@ section {
 	padding: 80px 0;
 }
 #nino-slider .nino-sectionHeading {
-	font-size: 110px;
+	font-size: 50px;
 	color: #fff;
 }
 #nino-slider .nino-sectionHeading .nino-subHeading {
-	font-size: 55px;
+	font-size: 70px;
 }
 #nino-slider .nino-sectionHeading:after {
 	background: #fff;
 }
 .nino-sectionHeading {
-	font-weight: 700;
-	font-size: 25px;
+	font-weight: 900;
+	font-size: 50px;
 	line-height: 1;
 	position: relative;
 	padding-bottom: 20px;
@@ -444,11 +444,11 @@ section {
 	margin: 0 auto 40px;
 }
 /* =============== SECTION STORY ABOUT US =============== */
-#nino-story .content {
+#archiving .content {
 	font-weight: 700;
 	font-size: 14px;
 }
-#nino-story .content .nino-icon {
+#archiving .content .nino-icon {
 	display: block;
 	font-size: 30px;
 }
@@ -477,19 +477,19 @@ section {
 	margin-bottom: 10px;
 }
 /* =============== SECTION SERVICES =============== */
-#nino-services .nino-icon {
+#profile .nino-icon {
 	font-size: 30px;
 	margin-right: 20px;
 	color: #95e1d3;
 }
-#nino-services .item:not(:nth-last-child(-n+3)) {
+#profile .item:not(:nth-last-child(-n+3)) {
 	border-bottom: 1px solid #e5e5e5;
 	margin-bottom: 50px;
 	padding-bottom: 40px;
 }
-#nino-services .nino-serviceTitle {
-	font-weight: 500;
-	font-size: 14px;
+#profile .nino-serviceTitle {
+	font-weight: 900;
+	font-size: 22px;
 }
 /* =============== SECTION UNIQUE DESIGN =============== */
 #nino-uniqueDesign {
@@ -1063,7 +1063,7 @@ div.pp_default .pp_social {
 		font-size: 50px;
 	}
 	/* =============== SECTION SERVICES =============== */
-	#nino-services .item:not(:nth-last-child(-n+2)) {
+	#profile .item:not(:nth-last-child(-n+2)) {
 		border-bottom: 1px solid #e5e5e5;
 		margin-bottom: 30px;
     	padding-bottom: 20px;
@@ -1197,7 +1197,7 @@ div.pp_default .pp_social {
 		padding: 15px 0 5px;
 	}
 	/* =============== SECTION SERVICES =============== */
-	#nino-services .item:not(:nth-last-child(-n+1)) {
+	#profile .item:not(:nth-last-child(-n+1)) {
 		border-bottom: 1px solid #e5e5e5;
 		margin-bottom: 20px;
 		padding-bottom: 10px;
