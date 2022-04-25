@@ -39,54 +39,32 @@
 			<nav id="nino-navbar" class="navbar navbar-default" role="navigation">
 				<div class="container">
 
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nino-navbar-collapse">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<!-- <a class="navbar-brand" href="index.html">KNY's Portfolio</a> -->
-					</div>
-
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="nino-menuItem pull-right">
 						<div class="collapse navbar-collapse pull-left" id="nino-navbar-collapse">
 							<ul class="nav navbar-nav">
-								<li><a href="#profile">Profile</a></li>
-								<li><a href="#archiving">ARCHIVING</a></li>
-								<li><a href="#nino-ourTeam">Our Team</a></li>
-								<li><a href="#nino-portfolio">Work</a></li>
-								<li><a href="#nino-latestBlog">Blog</a></li>
+								<li><a href="#profile">PROFILE</a></li>
+								<li><a href="#about-me">ABOUT ME</a></li>
+								<li><a href="#skills">SKILLS</a></li>
+								<li><a href="#project">PROJECT</a></li>
 							</ul>
 						</div><!-- /.navbar-collapse -->
-						<!-- <ul class="nino-iconsGroup nav navbar-nav">
-							<li><a href="#"><i class="mdi mdi-cart-outline nino-icon"></i></a></li>
-							<li><a href="#" class="nino-search"><i class="mdi mdi-magnify nino-icon"></i></a></li>
-						</ul> -->
+						
 					</div>
 				</div><!-- /.container-fluid -->
 			</nav>
-
+			
 			<section id="nino-slider" class="carousel slide container" data-ride="carousel">
 				
-				<!-- Wrapper for slides -->
-				<div class="carousel-inner" role="listbox">
-					<div class="item active">
-						<h3 class="nino-sectionHeading">
-							 new developer <br>
-							 PORTFOLIO
-						</h3>
-						~~~~~
-					</div>
-				</div>
-			
-		<!-- 메인프로필
-    ================================================== -->	
+				
+				
+		<!-- 메인프로필 ================================================== -->	
+				
 		<section id="profile">
-    	<div class="container">
-    		
+			<div class="container">
+				<h2 class="nino-sectionHeading">
+					#PROFILE
+				</h2>
 			<div class="sectionContent">			
 				<div class="fw" layout="row">
 					<div class="col-md-4 col-sm-6 item ">
@@ -138,17 +116,16 @@
 					</div>
 				</div>
 			</div>
-    	</div>
+		</div>
     </section><!--메인프로필-->
-    
-    
 			</section>
 		</div>
+
 	</header><!--/#header-->
 	
 	
 	<!-- ABOUT ME -->
-	<section id="nino-story">
+	<section id="about-me">
 		<div class="container">
 			<h2 class="nino-sectionHeading">
 				#ABOUT ME
@@ -170,7 +147,7 @@
 
     <!-- SKILLS
     ================================================== -->
-	<section id="nino-ourTeam">
+	<section id="skills">
 		<div class="container">
 			<h2 class="nino-sectionHeading">
 				<!-- <span class="nino-subHeading">Who we are</span> -->
@@ -191,7 +168,7 @@
     ================================================== -->
 	<!-- What We Do
     ================================================== -->
-    <section id="nino-whatWeDo">
+    <section id="project">
     	<div class="container">
     		<h2 class="nino-sectionHeading">
 				#PROJECT
@@ -202,25 +179,68 @@
 					<div class="col-md-6">
 						<div class="text-center">
 							<!-- 이미지 슬라이더 -->
-							<div class="slider">
-							    <input type="radio" name="slide" id="slide1" checked>
-							    <input type="radio" name="slide" id="slide2">
-							    <input type="radio" name="slide" id="slide3">
-							    <input type="radio" name="slide" id="slide4">
-							    
-							    <ul id="imgholder" class="imgs">
-							        <li><img src="images/what-we-do/project1-1.PNG"></li>
-							        <li><img src="images/what-we-do/project1-2.PNG"></li>
-							        <li><img src="images/what-we-do/project1-3.PNG"></li>
-							        <li><img src="images/what-we-do/project1-4.PNG"></li>
-							    </ul>
-							    <div class="bullets">
-							        <label for="slide1">&nbsp;</label>
-							        <label for="slide2">&nbsp;</label>
-							        <label for="slide3">&nbsp;</label>
-							        <label for="slide4">&nbsp;</label>
-							    </div>
+							
+							<div class="section">
+								<input type="radio" name="slide" id="slide01" checked>
+								<input type="radio" name="slide" id="slide02">
+								<input type="radio" name="slide" id="slide03">
+								<input type="radio" name="slide" id="slide04">
+								<div class="slidewrap">
+									
+									<ul class="slidelist">
+										<!-- 슬라이드 영역 -->
+										<li class="slideitem">
+											<a>
+												<img src="images/what-we-do/project1-1.PNG">
+											</a>
+										</li>
+										<li class="slideitem">
+											<a>
+												<img src="images/what-we-do/project1-2.PNG">
+											</a>
+										</li>
+										<li class="slideitem">
+											<a>
+												<img src="images/what-we-do/project1-3.PNG">
+											</a>
+										</li>
+										<li class="slideitem">
+											<a>
+												<img src="images/what-we-do/project1-4.PNG">
+											</a>
+										</li>
+							
+										<!-- 좌,우 슬라이드 버튼 -->
+										<div class="slide-control">
+											<div>
+												<label for="slide04" class="left"></label>
+												<label for="slide02" class="right"></label>
+											</div>
+											<div>
+												<label for="slide01" class="left"></label>
+												<label for="slide03" class="right"></label>
+											</div>
+											<div>
+												<label for="slide02" class="left"></label>
+												<label for="slide04" class="right"></label>
+											</div>
+											<div>
+												<label for="slide03" class="left"></label>
+												<label for="slide01" class="right"></label>
+											</div>
+										</div>
+							
+									</ul>
+									<!-- 페이징 -->
+									<ul class="slide-pagelist">
+										<li><label for="slide01"></label></li>
+										<li><label for="slide02"></label></li>
+										<li><label for="slide03"></label></li>
+										<li><label for="slide04"></label></li>
+									</ul>
+								</div>
 							</div>
+							<!-- 이미지 슬라이더 -->
 						</div>
 					</div>
 					<div class="col-md-6">
@@ -230,7 +250,7 @@
 									<h4 class="panel-title">
 										<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 											<i class="mdi mdi-chevron-up nino-icon arrow"></i>
-											<i class="mdi mdi-camera nino-icon"></i> 
+											<i class="mdi mdi-link-variant nino-icon"></i> 
 											프로젝트 소개
 											
 										</a>
@@ -239,9 +259,12 @@
 								<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 									<div class="panel-body">
 										<h3 style="font-weight: bold">#오늘 뭐 먹지? (2022.3~2022.4)</h3>
-										-7人 팀 프로젝트
+										<b>-7人 팀 프로젝트</b>
 										<br>
-										-사이트 주소 : <a href="http://itwillbs9.cafe24.com/Team_1" target="_blank">http://itwillbs9.cafe24.com/Team_1</a>
+										<b>-사이트 주소 :</b> <a href="http://itwillbs9.cafe24.com/Team_1" target="_blank">http://itwillbs9.cafe24.com/Team_1</a>
+										<br>
+										<b>코드리뷰 :</b> <a href="https://kny8451.tistory.com/category/TeamProject" target="_blank">kny8451.tistory.com/category/TeamProject</a><br>
+										<b>GITHUB :</b> <a href="https://github.com/kny0304/Team_1" target="_blank">github.com/kny0304/Team_1</a>
 										<br><br>
 										개인의 레시피를 공유하고, 식자재도 구매할 수 있는 웹 사이트 입니다.<br>
 										1인가구가 증가함에 따라 하루하루 무엇을 먹어야 할지 고민하는 사람들이 늘어나고 있는 시대상을 반영하여 '오늘 뭐 먹지?'라는 이름을 짓게 되었습니다.<br>
@@ -254,20 +277,21 @@
 									<h4 class="panel-title">
 										<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
 											<i class="mdi mdi-chevron-up nino-icon arrow"></i>
-											<i class="mdi mdi-owl nino-icon"></i> 
+											<i class="mdi mdi-keyboard nino-icon"></i> 
 											기능 소개
 										</a>
 									</h4>
 								</div>
 								<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 									<div class="panel-body">
-									<b>제가 맡은 기능은 <장바구니>와 <구매, 구매내역> 페이지 입니다.</b><br>
-									코드리뷰 : <a href="https://kny8451.tistory.com/category/TeamProject" target="_blank">kny8451.tistory.com/category/TeamProject</a><br>
-									GITHUB : <a href="https://github.com/kny0304/Team_1" target="_blank">github.com/kny0304/Team_1</a>
+									<b>주요기능 :</b> 회원 / 식품판매 / 레시피작성 / 고객센터 / 마이페이지(장바구니, 구매, 게시글 좋아요리스트)
 									<br><br>
-									1. 장바구니 목록 : 로그인한 회원의 id(PK)값으로 현재 장바구니에 담겨있는 상품을 보여줍니다.<br>
+									<b><내가 구현한 기능></b><br>
+									1. 장바구니 목록 : 로그인한 회원의 id(PK)값으로 현재 장바구니에 담겨있는 상품을 보여줍니다. 수량변경, 삭제가 가능합니다.
 									<br><br>
-									2. 주문정보 작성 : 주문을 위한 배송정보를 입력하고, 주문 상품 확인을 할 수 있습니다. AJAX를 이용해 주문자 정보와 동일한 정보를 클릭 한번으로 입력할 수 있습니다.<br>
+									2. 주문정보 작성 : 주문을 위한 배송정보를 입력하고, 주문 상품 확인을 할 수 있습니다. AJAX를 이용해 주문자 정보와 동일한 정보를 클릭 한번으로 입력할 수 있습니다.
+									<br><br>
+									3. 구매내역 확인 : 각 주문건마다 주문번호를 부여해 과거 주문했던 목록을 확인할 수 있습니다.
 									<br><br>
 									<b>사용 기술</b> : JAVA / SPRING FRAMEWORK / HTML / CSS / JAVASCRIPT / JQUERY / MYSQL / AJAX 
 									</div>
@@ -278,14 +302,18 @@
 									<h4 class="panel-title">
 										<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
 											<i class="mdi mdi-chevron-up nino-icon arrow"></i>
-											<i class="mdi mdi-laptop-mac nino-icon"></i> 
+											<i class="mdi mdi-lead-pencil nino-icon"></i> 
 											FEEDBACK
 										</a>
 									</h4>
 								</div>
 								<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 									<div class="panel-body">
-										피드백
+										수업시간에 배웠던 것을 실제로 적용해 보며 머리속에 어지럽게 펼쳐져 있던 이론들을 어느정도 이해할 수 있는 과정이었습니다.
+										기본 기능(CRUD)을 포함하여 내가 생각한 기능을 실제로 구현해 가는 과정이 흥미로웠고 몇날 며칠이 걸려 구현에 성공했을 때의 성취감이 매우 좋았습니다.<br> 
+										<br>
+										그러나 처음으로 진행해본 팀 프로젝트인 만큼 아쉬운 점이 많이 남은 프로젝트입니다. 시간이 부족해 시작 단계에서 계획했던 기능들의 70% 정도만 구현되었습니다.
+										제가 맡은 부분에서는 장바구니의 각 상품을 선택하여 주문/삭제하는 기능, 주문 내역 리스트를 조회할 때 주문한 상품중 대표상품의 썸네일만 보이도록 하는 기능 등이 추가로 필요합니다.<br>
 									</div>
 								</div>
 							</div>
@@ -327,14 +355,5 @@
 	<script type="text/javascript" src="js/unslider-min.js"></script>
 	<script type="text/javascript" src="js/template.js"></script>
 
-	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-	<!--[if lt IE 9]>
-	  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-	<!-- css3-mediaqueries.js for IE less than 9 -->
-	<!--[if lt IE 9]>
-	    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-	<![endif]-->
-		
 </body>
 </html>

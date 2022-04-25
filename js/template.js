@@ -22,7 +22,7 @@ jQuery(function($) {
 	});
 
 	/* =============== CUSTOM SCROLLBAR STYLE =============== */
-	$("#nino-whatWeDo .panel-body").mCustomScrollbar({
+	$("#project .panel-body").mCustomScrollbar({
 		theme:"default"
 	});
 
